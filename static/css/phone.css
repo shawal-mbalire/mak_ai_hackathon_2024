@@ -1,5 +1,9 @@
 @media (max-width:540px) {
     
+    section{
+        padding: 0;
+        margin: 1rem;
+    }
     #logo__text{
         visibility: hidden;
         display: block;
@@ -10,12 +14,21 @@
         width: fit-content;
         justify-content: center;
     }
+
+    header{
+        width: 95vw;
+        left: 2.5vw;
+        font-size: smaller;
+    }
+    body::-webkit-scrollbar {
+      display: none;
+    }
 }
 @media (max-width:430px) {
     
     section{
         padding: 0;
-        margin: 0;
+        margin: 1rem;
     }
     .home{
         margin-top: 5rem;
@@ -39,5 +52,8 @@
     }
     .about_big_text{
         margin: 5%;
+    }
+    body::-webkit-scrollbar {
+      display: none;
     }
 }

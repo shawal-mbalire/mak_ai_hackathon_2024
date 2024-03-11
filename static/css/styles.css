@@ -36,7 +36,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    background-color: rgba(0, 255, 255, 0.25);
+    background-color: rgba(0, 255, 255, 0.45);
     backdrop-filter: blur(10px);
     border-radius: 1rem;
     /* padding-left: 4rem;
@@ -87,7 +87,7 @@ header{
 }
 .btn_layer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* padding-left: 6rem; */
     /* padding-right: 6rem; */
     font-size: large;
@@ -231,4 +231,6 @@ a{
 span{
     color: rgb(0,255,255);
 }
-sv
+body::-webkit-scrollbar {
+  display: none;
+}
