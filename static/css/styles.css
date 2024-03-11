@@ -15,7 +15,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 #logo_div{
     margin-left: 2rem;
@@ -64,7 +64,7 @@ header{
 }
 .primary_btn{
     border-radius: .5rem;
-    background: aqua;
+    background: rgb(0,255,255);
     width: max-content;
     padding: .5rem;
     border: none;
@@ -76,7 +76,7 @@ header{
     border-radius: .5rem;
     border-style: solid;
     /* border-width: 4px; */
-    border-color: aqua;
+    border-color: rgb(0,255,255);
     width: max-content;
     padding: .5rem;
     height: 3rem;
@@ -88,13 +88,17 @@ header{
 .btn_layer{
     display: flex;
     justify-content: space-between;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    /* padding-left: 6rem; */
+    /* padding-right: 6rem; */
     font-size: large;
 }
 section{
-    height: 90vh;
+    min-height: 90vh;
     padding: 5rem;
+    height: auto;
+}
+#register{
+    height: auto;
 }
 iframe{
     border: none;
@@ -103,7 +107,7 @@ iframe{
     scrollbar-width: 0;
 }
 a{
-    color: gr;
+    color: rgb(0,255,255);
 }
 #about{
     justify-content: center;
@@ -167,7 +171,7 @@ a{
 }
 .time_title{
     font-size: 2rem;
-    color: aqua;
+    color: rgb(0,255,255);
 }
 .time_info{
     font-size: 1.3rem;
@@ -223,3 +227,8 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
+span{
+    color: rgb(0,255,255);
+}
+sv

@@ -1,0 +1,43 @@
+@media (max-width:540px) {
+    
+    #logo__text{
+        visibility: hidden;
+        display: block;
+        width: 0;
+        height: 0;
+    }
+    #logo_div{
+        width: fit-content;
+        justify-content: center;
+    }
+}
+@media (max-width:430px) {
+    
+    section{
+        padding: 0;
+        margin: 0;
+    }
+    .home{
+        margin-top: 5rem;
+    }
+    .org_title{
+        font-size: 2rem;
+    }
+    .our_socials{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .social_title{
+        padding: 0;
+        margin: 5%;
+        font-size: 1.5rem;
+    }
+    .org_about{
+            margin: 5%;
+
+    }
+    .about_big_text{
+        margin: 5%;
+    }
+}
