@@ -16,4 +16,8 @@
         left: 5vw;
         font-size: small;
     }
+
+        .primary_btn,.secondary_btn, .location,.date{
+            font-size: small;
+        }
 }

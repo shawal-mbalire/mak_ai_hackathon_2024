@@ -20,6 +20,9 @@
         left: 2.5vw;
         font-size: smaller;
     }
+    .primary_btn,.secondary_btn, .location,.date{
+        font-size: smaller;
+    }
     body::-webkit-scrollbar {
       display: none;
     }

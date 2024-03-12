@@ -6,9 +6,12 @@ html{
     justify-content: center;
     font-family: "Comfortaa", sans-serif;
     font-weight: bold;
+    justify-content: space-around;
 }
 body{
-    background-image: url("static/images/background.svg");}
+    background-image: url("static/images/background.svg");
+    justify-content: space-around;
+}
 img{
     width: 2rem;
     border: none;
@@ -33,14 +36,12 @@ header{
     position: fixed;
     width: 80vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 4rem;
     background-color: rgba(0, 255, 255, 0.45);
     backdrop-filter: blur(10px);
     border-radius: 1rem;
-    /* padding-left: 4rem;
-    padding-right: 4rem; */
     z-index: 1000;
     left: 10vw;
 }
@@ -233,4 +234,18 @@ span{
 }
 body::-webkit-scrollbar {
   display: none;
+}
+body{
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20vh;
+    background-color: aqua;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: black;
 }
