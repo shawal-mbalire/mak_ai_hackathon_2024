@@ -14,11 +14,14 @@
         width: fit-content;
         justify-content: center;
     }
-
+html{
+    display:block;
+}
     header{
-        width: 95vw;
+        width: 85%;
         left: 2.5vw;
         font-size: smaller;
+        top:0px;
     }
     .primary_btn,.secondary_btn, .location,.date{
         font-size: smaller;
