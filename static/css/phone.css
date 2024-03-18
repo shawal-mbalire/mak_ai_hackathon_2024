@@ -17,6 +17,9 @@
 html{
     display:block;
 }
+   footer{
+       font-size:1.1rem;
+   }
     header{
         width: 85%;
         left: 2.5vw;
