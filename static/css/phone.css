@@ -20,6 +20,12 @@ html{
    footer{
        font-size:1.1rem;
    }
+    .about_big_text{
+        font-size:3rem;
+    }
+    .org_card{
+        width:20rem;
+    }
     header{
         width: 85%;
         left: 2.5vw;
