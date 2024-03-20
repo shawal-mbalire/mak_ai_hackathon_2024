@@ -17,6 +17,15 @@
 html{
     display:block;
 }
+   footer{
+       font-size:1.1rem;
+   }
+    .about_big_text{
+        font-size:3rem;
+    }
+    .org_card{
+        width:20rem;
+    }
     header{
         width: 85%;
         left: 2.5vw;
@@ -51,6 +60,15 @@ html{
         padding: 0;
         margin: 5%;
         font-size: 1.5rem;
+    }
+       footer{
+       font-size:1.1rem;
+   }
+    .about_big_text{
+        font-size:3rem;
+    }
+    .org_card{
+        width:20rem;
     }
     .org_about{
             margin: 5%;
