@@ -174,11 +174,23 @@ a{
     font-size: 2rem;
     color: rgb(0,255,255);
 }
+h1{
+    /* color: aqua; */
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
 .time_info{
     font-size: 1.3rem;
     font-weight: normal;
 }
-
+#tasks{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 #organisers{
     display: flex;
     justify-content: center;
@@ -240,7 +252,7 @@ body{
   scrollbar-width: none; 
 }
 footer{
-    display: flex;
+    display: grid;
     justify-content: space-around;
     align-items: center;
     min-height: 20vh;
@@ -248,4 +260,5 @@ footer{
     font-weight: bolder;
     font-size: 1.2rem;
     color: black;
+    padding: 2rem;
 }
