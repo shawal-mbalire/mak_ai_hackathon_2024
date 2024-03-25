@@ -220,6 +220,8 @@ h2{
 .org_about{
     padding-bottom: 1rem;
     font-size: large;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
 }
 
 .org_socials{
